@@ -20,34 +20,79 @@
   <header class="header"><!--Cabeçalho-->
 
     <div class="header__city-search-bar">
-      <input class="header__input" type="text" placeholder="Temperatura de qual a cidade?">
-      <button class="header__button">
+
+      <input 
+      class="header__input" 
+      id="city-search-input"
+      type="text" 
+      placeholder="Temperatura de qual a cidade?">
+
+      <button
+       class="header__button" 
+       id="city-search-button">
+
         <img class="header__button-icon" src="assets/search-icon.svg" alt="Icone de uma lupa">
+      
       </button>
     </div>
 
-    <div class="header__Data-Atual">...</div><!--Data e o mes-->
-    <div class="header__city-name">...</div><!--Cidade-->
+    <div 
+      class="header__Data-Atual" 
+      id="corrent-date">
+      ...
+   </div><!--Data e o mes-->
+
+    <div
+      class="header__city-name" 
+      id="city-name">
+      ...
+    </div><!--Cidade-->
 
   </header>
 
   <section class="corrent-temperatura">
-    <img class="corrent-temperatura__weather-icon" src="assets/loading-icon.svg" alt="icone que ilustre a temperatura atual.">
-    <div class="corrent-temperatura__description">...</div>
+    <img 
+      class="corrent-temperatura__weather-icon"
+      id="weather-icon" 
+      src="assets/loading-icon.svg" 
+      alt="icone que ilustre a temperatura atual.">
+
+    <div class="corrent-temperatura__description"
+      id="weather-description">
+      ...
+    </div>
+
     <div class="corrent-temperatura__infor-labe">Tempo agora</div>
-    <div class="corrent-temperutera__corrent-temperutera">...</divc>
+
+    <div
+      class="corrent-temperutera__corrent-temperutera"
+      id="corrent-temperutera">
+      ...
+    </divc>
   </section>
 
   <div class="botton-container">
     <section class="temperature-details">
       <div class="temperature-details__item">
         <div class="temperature-details__label">Vento</div>
-        <div class="temperature-details__value">...</div>
+
+        <div 
+          class="temperature-details__value"
+          id="wind-speed">
+          ...
+        </div>
+
       </div>
 
       <div class="temperature-details__item">
         <div class="temperature-details__label">Sensação</div>
-        <div class="temperature-details__value">...</div>
+
+        <div 
+          class="temperature-details__value"
+          id="feels-like-">
+          ...
+        </div>
+
       </div>
 
       <div class="temperature-details__item">
