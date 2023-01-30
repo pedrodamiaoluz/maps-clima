@@ -90,6 +90,10 @@
      margin-top: 15px;
    }
 
+   .corrent-temperatura__description::first-letter{
+      text-transform: uppercase;
+   }
+
    .corrent-temperatura__description{
      color: #b6aef0;
      font-weight: 500;
@@ -143,18 +147,19 @@
     
    }
 
-   .temperature-details__value{
+   .temperature-details__value, 
+   .sunset-sunrise__value{
     font-weight: 500;
-    margin: 7px;
+    margin-top: 7px;
     
    }
 
    /* sun */
 
-   .sunset-sunrise__value{
+   /*.sunset-sunrise__value{
     font-weight: 500;
     margin: 7px;
-   }
+   }*/
 
    .sunset-sunrise{
      display: flex;

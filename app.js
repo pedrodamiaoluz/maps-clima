@@ -54,7 +54,7 @@ function getCurrentLocationWeather(lat, lon){
 // Busca uma temperatura atravez de uma pesquisa
 function getCityWeather(cityName) {
 
-    weatherIcon.src = `/assets/loading-icon.svg`
+    weatherIcon.src = `./assets/loading-icon.svg`
 
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&units=metric&lang=pt_br&appid=${api_key}`)
         .then((response) => response.json())
@@ -73,10 +73,10 @@ function displayWeather(data) {
 
     correntDate.textContent = formatDate(dt);
     cityName.textContent = name;
-    weatherIcon.src = `/assets/${icon}.svg`
+    weatherIcon.src = `./assets/${icon}.svg`
     weatherDescription.textContent = description;
     correntTemperutera.textContent = `${Math.round(temp)}°C`;
-    windSpeed.textContent = `${Math.round(speed * 3.6)}Km`;
+    windSpeed.textContent = `${Math.round(speed * 3.6)}Km/h`;
     feelsLikeTemperature.textContent = `${Math.round(feels_like)}°C`;
     correntHumidity.textContent = `${humidity}%`;
     sunriseTime.textContent = formatTime(sunrise);
