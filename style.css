@@ -121,6 +121,7 @@
    /*botton-container*/
 
    .botton-container{
+    margin-top: 20;
     /*border: 1px solid red;*/
     background: #fff;
     position: absolute;
@@ -156,17 +157,11 @@
    .temperature-details__value, 
    .sunset-sunrise__value{
     font-weight: 500;
-    margin-top: 10px;
+    margin-top: 7px;
     
    }
 
    /* sun */
-
-   /*.sunset-sunrise__value{
-    font-weight: 500;
-    margin: 7px;
-   }*/
-
    .sunset-sunrise{
      display: flex;
      margin: 30px auto;
