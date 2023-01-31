@@ -132,7 +132,7 @@
 
    .temperature-details{
     display: flex;
-    margin-top: 50px;
+    margin-top: 30px;
    }
 
    .temperature-details__item{
@@ -156,7 +156,7 @@
    .temperature-details__value, 
    .sunset-sunrise__value{
     font-weight: 500;
-    margin-top: 7px;
+    margin-top: 10px;
     
    }
 
