@@ -2,7 +2,7 @@
         box-sizing: border-box;
         margin: 0;
         padding: 0;
-        color: #9199cb;
+      
     }
 
     boby {
@@ -122,7 +122,7 @@
 
    .botton-container{
     /*border: 1px solid red;*/
-    background: #fff;
+    background: rgb(197, 118, 118);
     position: absolute;
     bottom: 0;
     width: 100%;
