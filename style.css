@@ -2,11 +2,11 @@
         box-sizing: border-box;
         margin: 0;
         padding: 0;
-       
+        background-color: #9199cb;
     }
 
     boby {
-        background-color: #3041b4;
+        background-color: #9199cb;
         font-family: 'Inter', sans-serif;
         -webkit-font-smoothing: antialiased;
     }
