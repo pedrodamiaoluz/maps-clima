@@ -22,7 +22,12 @@
     
     }
 
-
+.sunset-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
     .header__city-search-bar{
         display: flex;
         justify-content: center;
