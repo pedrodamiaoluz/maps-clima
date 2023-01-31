@@ -108,7 +108,7 @@
    }
 
    .corrent-temperatura__infor-labe{
-    margin-top: 50px;
+    margin-top: 15px;
     color: #b6aef0;
    }
 
@@ -132,7 +132,7 @@
 
    .temperature-details{
     display: flex;
-    margin-top: 30px;
+    margin-top: 50px;
    }
 
    .temperature-details__item{
