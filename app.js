@@ -24,7 +24,6 @@ citySearchButton.addEventListener( "click", () => {
 })
 
 //06f77c41a37bbd75fecda08bb37bead5
-
 //https://api.openweathermap.org/data/2.5/weather?q=${cityName}&units=metric&lang=pt_br&appid=${api_key}
 
 navigator.geolocation.getCurrentPosition(
